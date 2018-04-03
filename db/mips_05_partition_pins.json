@@ -1,0 +1,269 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "instr.func[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.func[5]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.rs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.opCode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.opCode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.opCode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instr.opCode[5]",
+					"strict" : false
+				},
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "branchTargetAddr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "regDst",
+					"strict" : false
+				},
+				{
+					"name" : "regWrite",
+					"strict" : false
+				},
+				{
+					"name" : "aluResult[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aluSrc",
+					"strict" : false
+				},
+				{
+					"name" : "aluOp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[16]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[17]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[18]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[19]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[20]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[21]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[22]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[23]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[24]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[25]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[26]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[27]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[28]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[29]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[30]",
+					"strict" : false
+				},
+				{
+					"name" : "pcNext[31]",
+					"strict" : false
+				},
+				{
+					"name" : "signExtend[0]",
+					"strict" : false
+				},
+				{
+					"name" : "signExtend[5]",
+					"strict" : false
+				},
+				{
+					"name" : "signExtend[11]",
+					"strict" : false
+				},
+				{
+					"name" : "signExtend[14]",
+					"strict" : false
+				},
+				{
+					"name" : "memWrite",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

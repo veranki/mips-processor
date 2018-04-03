@@ -1,0 +1,11 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/mips32_tb/mips32_instance/write_back_instance/d_mem_instance/dataMem
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+00000000
+00000000
+00000015
+00000000
+00000000
+00000000
+00000000
+00000000

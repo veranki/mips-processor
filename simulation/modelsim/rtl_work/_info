@@ -1,0 +1,550 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/dev/mips_05/simulation/modelsim
+vcontrol
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 3 def 0 22 HUgghR]izY?4e@[YSN`<72
+DXx4 work 15 control_sv_unit 0 22 >NX^7cGjS]XL?akSlBToW3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;`kARIBEC:fQ0aihE=4dK3
+IR9HX5IiKJkiLYcPX?nbSP1
+!s105 control_sv_unit
+S1
+R0
+w1510361167
+Z4 8F:/dev/mips_05/control.sv
+Z5 FF:/dev/mips_05/control.sv
+L0 4
+Z6 OV;L;10.5b;63
+Z7 !s108 1512131867.000000
+Z8 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/control.sv|
+Z9 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/control.sv|
+!i113 1
+Z10 o-sv -work work
+Z11 !s92 -sv -work work +incdir+F:/dev/mips_05
+Z12 tCvgOpt 0
+Xcontrol_sv_unit
+R1
+R2
+V>NX^7cGjS]XL?akSlBToW3
+r1
+!s85 0
+31
+!i10b 1
+!s100 R`4RUINZd8B3W37SWHaG?1
+I>NX^7cGjS]XL?akSlBToW3
+!i103 1
+S1
+R0
+w1510587894
+R4
+R5
+Z13 FF:/dev/mips_05/param.sv
+L0 3
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vd_mem
+R1
+R2
+DXx4 work 13 d_mem_sv_unit 0 22 e9TRBD`56F[lAd^Ln>BnP0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 :2X1>1?lZ4CiVH8lbPMKC2
+IU9zS_S_OYIUa`EUz?:1@20
+!s105 d_mem_sv_unit
+S1
+R0
+Z14 w1512131192
+Z15 8F:/dev/mips_05/d_mem.sv
+Z16 FF:/dev/mips_05/d_mem.sv
+L0 4
+R6
+R7
+Z17 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/d_mem.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/d_mem.sv|
+!i113 1
+R10
+R11
+R12
+Xd_mem_sv_unit
+R1
+R2
+Ve9TRBD`56F[lAd^Ln>BnP0
+r1
+!s85 0
+31
+!i10b 1
+!s100 EoSPca>>fBY`8makSeI[C1
+Ie9TRBD`56F[lAd^Ln>BnP0
+!i103 1
+S1
+R0
+R14
+R15
+R16
+R13
+L0 3
+R6
+R7
+R17
+R18
+!i113 1
+R10
+R11
+R12
+vdecode
+R1
+R2
+DXx4 work 14 decode_sv_unit 0 22 _zYI>iSiha@3YFG9c<J[c3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4j;RQdS3B45hf[KTV_K5:0
+Il_fQ12[87eaE`V1`YzPU81
+!s105 decode_sv_unit
+S1
+R0
+Z19 w1510587984
+Z20 8F:/dev/mips_05/decode.sv
+Z21 FF:/dev/mips_05/decode.sv
+L0 4
+R6
+R7
+Z22 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/decode.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/decode.sv|
+!i113 1
+R10
+R11
+R12
+Xdecode_sv_unit
+R1
+R2
+V_zYI>iSiha@3YFG9c<J[c3
+r1
+!s85 0
+31
+!i10b 1
+!s100 @7B^Rkj_UE:OMnDOhV7Od3
+I_zYI>iSiha@3YFG9c<J[c3
+!i103 1
+S1
+R0
+R19
+R20
+R21
+R13
+L0 3
+R6
+R7
+R22
+R23
+!i113 1
+R10
+R11
+R12
+Xdef
+R1
+!s110 1512131866
+!i10b 1
+!s100 j9CQl1YTT966A^2;WP6>32
+IHUgghR]izY?4e@[YSN`<72
+VHUgghR]izY?4e@[YSN`<72
+S1
+R0
+w1510583352
+8F:/dev/mips_05/def.sv
+FF:/dev/mips_05/def.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1512131866.000000
+!s107 F:/dev/mips_05/def.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/def.sv|
+!i113 1
+R10
+R11
+R12
+vexecute
+R1
+R2
+DXx4 work 15 execute_sv_unit 0 22 m1n_88=JcY3>kR=IP;SQ>2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^^BnI^`5TdXP:gf>KE0NA1
+IZMV@AGijb;]1[bdf]N_k40
+!s105 execute_sv_unit
+S1
+R0
+Z24 w1510666825
+Z25 8F:/dev/mips_05/execute.sv
+Z26 FF:/dev/mips_05/execute.sv
+L0 4
+R6
+R7
+Z27 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/execute.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/execute.sv|
+!i113 1
+R10
+R11
+R12
+Xexecute_sv_unit
+R1
+R2
+Vm1n_88=JcY3>kR=IP;SQ>2
+r1
+!s85 0
+31
+!i10b 1
+!s100 jT03]V0nG1R;9ZlC;E8>Q1
+Im1n_88=JcY3>kR=IP;SQ>2
+!i103 1
+S1
+R0
+R24
+R25
+R26
+R13
+L0 3
+R6
+R7
+R27
+R28
+!i113 1
+R10
+R11
+R12
+vfetch
+R1
+R2
+DXx4 work 13 fetch_sv_unit 0 22 ?oRMFo5ABz_fUWNHI^D8T1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 kbSYWVN]ILGDHmmUh6cXB1
+IYdXVa_VW56NI7eg6Mm^f:1
+!s105 fetch_sv_unit
+S1
+R0
+Z29 w1510685910
+Z30 8F:/dev/mips_05/fetch.sv
+Z31 FF:/dev/mips_05/fetch.sv
+L0 4
+R6
+R7
+Z32 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/fetch.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/fetch.sv|
+!i113 1
+R10
+R11
+R12
+Xfetch_sv_unit
+R1
+R2
+V?oRMFo5ABz_fUWNHI^D8T1
+r1
+!s85 0
+31
+!i10b 1
+!s100 CPhci;O@LB7IAG>dNij5N2
+I?oRMFo5ABz_fUWNHI^D8T1
+!i103 1
+S1
+R0
+R29
+R30
+R31
+R13
+L0 3
+R6
+R7
+R32
+R33
+!i113 1
+R10
+R11
+R12
+vi_mem
+R1
+R2
+DXx4 work 13 i_mem_sv_unit 0 22 0YhCf^Q`9X`>nV=CEz;8b3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 PD^mo3z=S0ED?HjE_7e_m2
+I9Y`U;oGc[Qg^IfzD;8]@P0
+!s105 i_mem_sv_unit
+S1
+R0
+Z34 w1512131169
+Z35 8F:/dev/mips_05/i_mem.sv
+Z36 FF:/dev/mips_05/i_mem.sv
+L0 4
+R6
+R7
+Z37 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/i_mem.sv|
+Z38 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/i_mem.sv|
+!i113 1
+R10
+R11
+R12
+Xi_mem_sv_unit
+R1
+R2
+V0YhCf^Q`9X`>nV=CEz;8b3
+r1
+!s85 0
+31
+!i10b 1
+!s100 :ao_E:jfeMkdKngiKl@zI1
+I0YhCf^Q`9X`>nV=CEz;8b3
+!i103 1
+S1
+R0
+R34
+R35
+R36
+R13
+L0 3
+R6
+R7
+R37
+R38
+!i113 1
+R10
+R11
+R12
+vmips32
+R1
+R2
+DXx4 work 14 mips32_sv_unit 0 22 DQ5U]VOChFXC>kehSfG@o3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 VM2XF@kOdPcX@dMJeI@FT2
+Ia6]PP_X6MAMZCTIoQ920A0
+!s105 mips32_sv_unit
+S1
+R0
+Z39 w1512131767
+Z40 8F:/dev/mips_05/mips32.sv
+Z41 FF:/dev/mips_05/mips32.sv
+L0 4
+R6
+R7
+Z42 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/mips32.sv|
+Z43 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/mips32.sv|
+!i113 1
+R10
+R11
+R12
+Xmips32_sv_unit
+R1
+R2
+VDQ5U]VOChFXC>kehSfG@o3
+r1
+!s85 0
+31
+!i10b 1
+!s100 g;?iUJEzIJJX7J:FP]J3l0
+IDQ5U]VOChFXC>kehSfG@o3
+!i103 1
+S1
+R0
+R39
+R40
+R41
+R13
+L0 3
+R6
+R7
+R42
+R43
+!i113 1
+R10
+R11
+R12
+vmips32_tb
+R1
+R2
+DXx4 work 17 mips32_tb_sv_unit 0 22 ^:m5]BzF<2GSaWaoPVlGn1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 9mhDDHM1Wed?AXgo>5<SH1
+Il:UI3gzfa1J;XiQUa<`^K1
+!s105 mips32_tb_sv_unit
+S1
+R0
+Z44 w1510684143
+Z45 8F:/dev/mips_05/mips32_tb.sv
+Z46 FF:/dev/mips_05/mips32_tb.sv
+L0 4
+R6
+Z47 !s108 1512131914.000000
+Z48 !s107 F:\dev\mips_05\param.sv|F:/dev/mips_05/mips32_tb.sv|
+Z49 !s90 -reportprogress|300|-work|work|F:/dev/mips_05/mips32_tb.sv|
+!i113 1
+Z50 o-work work
+R12
+Xmips32_tb_sv_unit
+R1
+R2
+V^:m5]BzF<2GSaWaoPVlGn1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ECCenf9PnMFIKZIkkU8Aj1
+I^:m5]BzF<2GSaWaoPVlGn1
+!i103 1
+S1
+R0
+R44
+R45
+R46
+Z51 FF:\dev\mips_05\param.sv
+L0 3
+R6
+R47
+R48
+R49
+!i113 1
+R50
+R12
+vreg_file
+R1
+R2
+DXx4 work 16 reg_file_sv_unit 0 22 <hkFj_ge_BUHD@;WDYgA11
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 5M^@cJ6m=^A2c?LOf3Wkb3
+I5i1J]A0=kBl@ldX_GP<fh2
+!s105 reg_file_sv_unit
+S1
+R0
+Z52 w1510666917
+Z53 8F:/dev/mips_05/reg_file.sv
+Z54 FF:/dev/mips_05/reg_file.sv
+L0 4
+R6
+R7
+Z55 !s107 F:/dev/mips_05/param.sv|F:/dev/mips_05/reg_file.sv|
+Z56 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/dev/mips_05|F:/dev/mips_05/reg_file.sv|
+!i113 1
+R10
+R11
+R12
+Xreg_file_sv_unit
+R1
+R2
+V<hkFj_ge_BUHD@;WDYgA11
+r1
+!s85 0
+31
+!i10b 1
+!s100 3CEZ=WOYC_;jV9Q9ZHAeC2
+I<hkFj_ge_BUHD@;WDYgA11
+!i103 1
+S1
+R0
+R52
+R53
+R54
+R13
+L0 3
+R6
+R7
+R55
+R56
+!i113 1
+R10
+R11
+R12
+vwrite_back
+R1
+R2
+DXx4 work 18 write_back_sv_unit 0 22 [<cl7j5gA6BS[m?Pzl50U2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 YGTW<T]>JLAE5I_NQnTVj1
+IJj969TB6UjQ2CQhogVgS71
+!s105 write_back_sv_unit
+S1
+R0
+Z57 w1512131682
+Z58 8F:/dev/mips_05/write_back.sv
+Z59 FF:/dev/mips_05/write_back.sv
+L0 4
+R6
+Z60 !s108 1512131889.000000
+Z61 !s107 F:\dev\mips_05\param.sv|F:/dev/mips_05/write_back.sv|
+Z62 !s90 -reportprogress|300|-work|work|F:/dev/mips_05/write_back.sv|
+!i113 1
+R50
+R12
+Xwrite_back_sv_unit
+R1
+R2
+V[<cl7j5gA6BS[m?Pzl50U2
+r1
+!s85 0
+31
+!i10b 1
+!s100 <ZEagXkB83JZdXXI0oJPa2
+I[<cl7j5gA6BS[m?Pzl50U2
+!i103 1
+S1
+R0
+R57
+R58
+R59
+R51
+L0 3
+R6
+R60
+R61
+R62
+!i113 1
+R50
+R12

@@ -1,0 +1,108 @@
+Messages
+=========================
+SPIM Version Version 7.2 of August 7, 2005
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+DOS and Windows ports by David A. Carley (dac@cs.wisc.edu).
+Copyright 1997 by Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: D:\portablepcspim-0.0.1b\PCSpim\exceptions.s
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version Version 7.2 of August 7, 2005
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+DOS and Windows ports by David A. Carley (dac@cs.wisc.edu).
+Copyright 1997 by Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: D:\portablepcspim-0.0.1b\PCSpim\exceptions.s
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version Version 7.2 of August 7, 2005
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+DOS and Windows ports by David A. Carley (dac@cs.wisc.edu).
+Copyright 1997 by Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: D:\portablepcspim-0.0.1b\PCSpim\exceptions.s
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version Version 7.2 of August 7, 2005
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+DOS and Windows ports by David A. Carley (dac@cs.wisc.edu).
+Copyright 1997 by Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+F:\dev\mips_05\mem_files\simple.s successfully loaded
+
+
+Registers
+=========================
+ PC      = 00000000   EPC     = 00000000   Cause   = 00000000   BadVAddr= 00000000
+ Status  = 3000ff10   HI      = 00000000   LO      = 00000000
+                                 General Registers
+R0  (r0) = 00000000  R8  (t0) = 00000003  R16 (s0) = 00000000  R24 (t8) = 00000000
+R1  (at) = 00000000  R9  (t1) = 00000004  R17 (s1) = 00000000  R25 (t9) = 00000000
+R2  (v0) = 0000000a  R10 (t2) = 00000007  R18 (s2) = 00000000  R26 (k0) = 00000000
+R3  (v1) = 00000000  R11 (t3) = 0000001c  R19 (s3) = 00000000  R27 (k1) = 00000000
+R4  (a0) = 00000000  R12 (t4) = 00000000  R20 (s4) = 00000000  R28 (gp) = 00000000
+R5  (a1) = 00000000  R13 (t5) = 00000000  R21 (s5) = 00000000  R29 (sp) = 7fffef50
+R6  (a2) = 7fffef58  R14 (t6) = 00000000  R22 (s6) = 00000000  R30 (s8) = 00000000
+R7  (a3) = 00000000  R15 (t7) = 00000000  R23 (s7) = 00000000  R31 (ra) = 00000000
+
+ FIR    = 00009800    FCSR    = 00000000    FCCR   = 00000000   FEXR    = 00000000
+ FENR   = 00000000
+                              Double Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+                              Single Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP1  = 0.000000      FP9  = 0.000000      FP17 = 0.000000      FP25 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP3  = 0.000000      FP11 = 0.000000      FP19 = 0.000000      FP27 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP5  = 0.000000      FP13 = 0.000000      FP21 = 0.000000      FP29 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+FP7  = 0.000000      FP15 = 0.000000      FP23 = 0.000000      FP31 = 0.000000     
+
+
+Console
+=========================
+
+
+Text Segment
+=========================
+[0x00400000]        0x24080003  addiu $8, $0, 3                 ; 8: addiu   $t0, $zero, 3      # Add 0 + 3 and store the result in t0
+[0x00400004]        0x24090004  addiu $9, $0, 4                 ; 9: addiu   $t1, $zero, 4      # Add 0 + 4 and store the result in t1
+[0x00400008]        0x01095021  addu $10, $8, $9                ; 10: addu    $t2, $t0, $t1   # Add t0 + t1 and store the result in t2
+[0x0040000c]        0x000a5880  sll $11, $10, 2                 ; 11: sll     $t3, $t2, 2     # Shift the contents of t2 left by 2 bits# (same as multiply by 4)
+[0x00400010]        0x2402000a  addiu $2, $0, 10                ; 14: addiu   $v0, $zero, 10     # Prepare to exit (system call 10)
+[0x00400014]        0x0000000c  syscall                         ; 15: syscall                 # Exit
+
+        KERNEL
+
+
+Data Segment
+=========================
+        DATA
+[0x10000000]...[0x10040000]        0x00000000
+
+        STACK
+[0x7fffef50]                        0x00000000  0x00000000  0x7fffefde  0x7fffefbb
+[0x7fffef60]                        0x7fffef84  0x7fffef48  0x7fffef17  0x7fffeefa
+[0x7fffef70]                        0x7fffeed6  0x7fffeec9  0x7fffeeb7  0x7fffee91
+[0x7fffef80]                        0x7fffee73  0x7fffee5c  0x7fffee3f  0x7fffee31
+[0x7fffef90]                        0x7fffed1f  0x7fffece1  0x7fffecc6  0x7fffeca9
+[0x7fffefa0]                        0x7fffec61  0x7fffec4f  0x7fffec37  0x7fffec1c
+[0x7fffefb0]                        0x7fffebf8  0x7fffebcf  0x7fffebb1  0x7fffeb46
+[0x7fffefc0]                        0x7fffeb2f  0x7fffeaf2  0x7fffeac3  0x7fffea94
+[0x7fffefd0]                        0x7fffea85  0x7fffea6f  0x7fffea4c  0x7fffea2a
+[0x7fffefe0]                        0x7fffea0f  0x7fffe9e5  0x7fffe9da  0x7fffe9c3
+[0x7fffeff0]                        0x7fffe9b1  0x7fffe98d  0x00000000  0x00000000
+
+        KERNEL DATA
+[0x90000000]...[0x90010000]        0x00000000
+
+

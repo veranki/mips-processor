@@ -1,0 +1,555 @@
+ -- Copyright (C) 2017  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel MegaCore Function License Agreement, or other 
+ -- applicable license agreement, including, without limitation, 
+ -- that your use is for the sole purpose of programming logic 
+ -- devices manufactured by Intel and sold by Intel or its 
+ -- authorized distributors.  Please refer to the applicable 
+ -- agreement for further details.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
+CHIP  "mips_05"  ASSIGNED TO AN: EP4CE15F23C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A1        : gnd    :                   :         :           :                
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+readMemData[6]               : A3        : output : 2.5 V             :         : 8         : N              
+memToReg                     : A4        : output : 2.5 V             :         : 8         : N              
+branchTargetAddr[11]         : A5        : output : 2.5 V             :         : 8         : N              
+signExtend[8]                : A6        : output : 2.5 V             :         : 8         : N              
+readRegData2[15]             : A7        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
+instr.rt[0]                  : A9        : output : 2.5 V             :         : 8         : N              
+branchTargetAddr[24]         : A10       : output : 2.5 V             :         : 8         : N              
+GND+                         : A11       :        :                   :         : 8         :                
+GND+                         : A12       :        :                   :         : 7         :                
+signExtend[31]               : A13       : output : 2.5 V             :         : 7         : N              
+aluResult[2]                 : A14       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[16]         : A15       : output : 2.5 V             :         : 7         : N              
+readRegData1[18]             : A16       : output : 2.5 V             :         : 7         : N              
+aluResult[27]                : A17       : output : 2.5 V             :         : 7         : N              
+readRegData2[23]             : A18       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[28]         : A19       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A20       :        :                   :         : 7         :                
+VCCIO7                       : A21       : power  :                   : 2.5V    : 7         :                
+GND                          : A22       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+readRegData2[14]             : AA3       : output : 2.5 V             :         : 3         : N              
+signExtend[25]               : AA4       : output : 2.5 V             :         : 3         : N              
+branchTargetAddr[14]         : AA5       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA6       : power  :                   : 2.5V    : 3         :                
+aluResult[14]                : AA7       : output : 2.5 V             :         : 3         : N              
+signExtend[29]               : AA8       : output : 2.5 V             :         : 3         : N              
+readMemData[19]              : AA9       : output : 2.5 V             :         : 3         : N              
+readRegData2[30]             : AA10      : output : 2.5 V             :         : 3         : N              
+GND+                         : AA11      :        :                   :         : 3         :                
+GND+                         : AA12      :        :                   :         : 4         :                
+readMemData[1]               : AA13      : output : 2.5 V             :         : 4         : N              
+branchTargetAddr[12]         : AA14      : output : 2.5 V             :         : 4         : N              
+readRegData1[25]             : AA15      : output : 2.5 V             :         : 4         : N              
+signExtend[20]               : AA16      : output : 2.5 V             :         : 4         : N              
+readMemData[13]              : AA17      : output : 2.5 V             :         : 4         : N              
+readMemData[18]              : AA18      : output : 2.5 V             :         : 4         : N              
+branchTargetAddr[31]         : AA19      : output : 2.5 V             :         : 4         : N              
+readMemData[10]              : AA20      : output : 2.5 V             :         : 4         : N              
+instr.func[2]                : AA21      : output : 2.5 V             :         : 5         : N              
+GND                          : AA22      : gnd    :                   :         :           :                
+GND                          : AB1       : gnd    :                   :         :           :                
+VCCIO3                       : AB2       : power  :                   : 2.5V    : 3         :                
+readRegData2[7]              : AB3       : output : 2.5 V             :         : 3         : N              
+instr.func[3]                : AB4       : output : 2.5 V             :         : 3         : N              
+aluResult[29]                : AB5       : output : 2.5 V             :         : 3         : N              
+GND                          : AB6       : gnd    :                   :         :           :                
+signExtend[12]               : AB7       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3         :                
+readRegData1[21]             : AB9       : output : 2.5 V             :         : 3         : N              
+aluResult[18]                : AB10      : output : 2.5 V             :         : 3         : N              
+GND+                         : AB11      :        :                   :         : 3         :                
+GND+                         : AB12      :        :                   :         : 4         :                
+readRegData1[24]             : AB13      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB14      :        :                   :         : 4         :                
+readRegData2[21]             : AB15      : output : 2.5 V             :         : 4         : N              
+instr.shamt[0]               : AB16      : output : 2.5 V             :         : 4         : N              
+branch                       : AB17      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB18      :        :                   :         : 4         :                
+branchTargetAddr[26]         : AB19      : output : 2.5 V             :         : 4         : N              
+signExtend[13]               : AB20      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AB21      : power  :                   : 2.5V    : 4         :                
+GND                          : AB22      : gnd    :                   :         :           :                
+instr.rd[4]                  : B1        : output : 2.5 V             :         : 1         : N              
+branchTargetAddr[20]         : B2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
+signExtend[27]               : B5        : output : 2.5 V             :         : 8         : N              
+readRegData1[4]              : B6        : output : 2.5 V             :         : 8         : N              
+signExtend[3]                : B7        : output : 2.5 V             :         : 8         : N              
+readMemData[16]              : B8        : output : 2.5 V             :         : 8         : N              
+instr.rt[3]                  : B9        : output : 2.5 V             :         : 8         : N              
+signExtend[17]               : B10       : output : 2.5 V             :         : 8         : N              
+GND+                         : B11       :        :                   :         : 8         :                
+GND+                         : B12       :        :                   :         : 7         :                
+branchTargetAddr[19]         : B13       : output : 2.5 V             :         : 7         : N              
+aluResult[25]                : B14       : output : 2.5 V             :         : 7         : N              
+aluResult[23]                : B15       : output : 2.5 V             :         : 7         : N              
+signExtend[11]               : B16       : output : 2.5 V             :         : 7         : N              
+signExtend[2]                : B17       : output : 2.5 V             :         : 7         : N              
+readRegData2[22]             : B18       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[9]          : B19       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[7]          : B20       : output : 2.5 V             :         : 7         : N              
+pc[13]                       : B21       : output : 2.5 V             :         : 6         : N              
+pc[12]                       : B22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+readRegData1[10]             : C3        : output : 2.5 V             :         : 8         : N              
+readMemData[29]              : C4        : output : 2.5 V             :         : 8         : N              
+GND                          : C5        : gnd    :                   :         :           :                
+aluResult[31]                : C6        : output : 2.5 V             :         : 8         : N              
+instr.opCode[4]              : C7        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
+GND                          : C9        : gnd    :                   :         :           :                
+readMemData[20]              : C10       : output : 2.5 V             :         : 8         : N              
+GND                          : C11       : gnd    :                   :         :           :                
+GND                          : C12       : gnd    :                   :         :           :                
+branchTargetAddr[13]         : C13       : output : 2.5 V             :         : 7         : N              
+GND                          : C14       : gnd    :                   :         :           :                
+branchTargetAddr[27]         : C15       : output : 2.5 V             :         : 7         : N              
+GND                          : C16       : gnd    :                   :         :           :                
+pc[17]                       : C17       : output : 2.5 V             :         : 7         : N              
+GND                          : C18       : gnd    :                   :         :           :                
+pc[29]                       : C19       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[1]          : C20       : output : 2.5 V             :         : 6         : N              
+pc[11]                       : C21       : output : 2.5 V             :         : 6         : N              
+pc[10]                       : C22       : output : 2.5 V             :         : 6         : N              
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D1        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
+GND                          : D3        : gnd    :                   :         :           :                
+VCCIO1                       : D4        : power  :                   : 2.5V    : 1         :                
+VCCIO8                       : D5        : power  :                   : 2.5V    : 8         :                
+aluResult[3]                 : D6        : output : 2.5 V             :         : 8         : N              
+GND                          : D7        : gnd    :                   :         :           :                
+GND                          : D8        : gnd    :                   :         :           :                
+VCCIO8                       : D9        : power  :                   : 2.5V    : 8         :                
+readRegData1[3]              : D10       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : D11       : power  :                   : 2.5V    : 8         :                
+VCCIO7                       : D12       : power  :                   : 2.5V    : 7         :                
+instr.rd[0]                  : D13       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : D14       : power  :                   : 2.5V    : 7         :                
+signExtend[6]                : D15       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : D16       : power  :                   : 2.5V    : 7         :                
+pc[9]                        : D17       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : D18       : power  :                   : 2.5V    : 7         :                
+pc[22]                       : D19       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[5]          : D20       : output : 2.5 V             :         : 6         : N              
+pc[28]                       : D21       : output : 2.5 V             :         : 6         : N              
+pc[31]                       : D22       : output : 2.5 V             :         : 6         : N              
+aluResult[17]                : E1        : output : 2.5 V             :         : 1         : N              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
+readMemData[14]              : E4        : output : 2.5 V             :         : 1         : N              
+readRegData2[28]             : E5        : output : 2.5 V             :         : 8         : N              
+signExtend[7]                : E6        : output : 2.5 V             :         : 8         : N              
+readMemData[30]              : E7        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E8        : power  :                   : 2.5V    : 8         :                
+readMemData[21]              : E9        : output : 2.5 V             :         : 8         : N              
+aluSrc                       : E10       : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 7         :                
+readRegData1[15]             : E12       : output : 2.5 V             :         : 7         : N              
+signExtend[28]               : E13       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[8]          : E14       : output : 2.5 V             :         : 7         : N              
+readRegData2[24]             : E15       : output : 2.5 V             :         : 7         : N              
+pc[3]                        : E16       : output : 2.5 V             :         : 7         : N              
+VCCD_PLL2                    : E17       : power  :                   : 1.2V    :           :                
+GNDA2                        : E18       : gnd    :                   :         :           :                
+VCCIO6                       : E19       : power  :                   : 2.5V    : 6         :                
+GND                          : E20       : gnd    :                   :         :           :                
+pc[15]                       : E21       : output : 2.5 V             :         : 6         : N              
+pc[1]                        : E22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
+GND                          : F3        : gnd    :                   :         :           :                
+VCCIO1                       : F4        : power  :                   : 2.5V    : 1         :                
+GNDA3                        : F5        : gnd    :                   :         :           :                
+VCCD_PLL3                    : F6        : power  :                   : 1.2V    :           :                
+branchTargetAddr[18]         : F7        : output : 2.5 V             :         : 8         : N              
+instr.rt[2]                  : F8        : output : 2.5 V             :         : 8         : N              
+readRegData1[6]              : F9        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8         :                
+instr.opCode[1]              : F11       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 7         :                
+readRegData1[20]             : F13       : output : 2.5 V             :         : 7         : N              
+pc[6]                        : F14       : output : 2.5 V             :         : 7         : N              
+pc[5]                        : F15       : output : 2.5 V             :         : 7         : N              
+pc[7]                        : F16       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[0]          : F17       : output : 2.5 V             :         : 6         : N              
+VCCA2                        : F18       : power  :                   : 2.5V    :           :                
+pc[20]                       : F19       : output : 2.5 V             :         : 6         : N              
+pc[24]                       : F20       : output : 2.5 V             :         : 6         : N              
+pc[0]                        : F21       : output : 2.5 V             :         : 6         : N              
+readMemData[0]               : F22       : output : 2.5 V             :         : 6         : N              
+clk                          : G1        : input  : 2.5 V             :         : 1         : N              
+GND                          : G2        : gnd    :                   :         :           :                
+readRegData1[28]             : G3        : output : 2.5 V             :         : 1         : N              
+signExtend[10]               : G4        : output : 2.5 V             :         : 1         : N              
+aluOp[0]                     : G5        : output : 2.5 V             :         : 1         : N              
+VCCA3                        : G6        : power  :                   : 2.5V    :           :                
+readMemData[25]              : G7        : output : 2.5 V             :         : 8         : N              
+branchTargetAddr[17]         : G8        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
+instr.rs[4]                  : G10       : output : 2.5 V             :         : 8         : N              
+readRegData1[30]             : G11       : output : 2.5 V             :         : 8         : N              
+instr.rs[1]                  : G12       : output : 2.5 V             :         : 7         : N              
+aluResult[9]                 : G13       : output : 2.5 V             :         : 7         : N              
+pc[4]                        : G14       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[2]          : G15       : output : 2.5 V             :         : 7         : N              
+pc[8]                        : G16       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[6]          : G17       : output : 2.5 V             :         : 6         : N              
+pc[21]                       : G18       : output : 2.5 V             :         : 6         : N              
+VCCIO6                       : G19       : power  :                   : 2.5V    : 6         :                
+GND                          : G20       : gnd    :                   :         :           :                
+GND+                         : G21       :        :                   :         : 6         :                
+GND+                         : G22       :        :                   :         : 6         :                
+readRegData1[27]             : H1        : output : 2.5 V             :         : 1         : N              
+readRegData1[17]             : H2        : output : 2.5 V             :         : 1         : N              
+GND                          : H3        : gnd    :                   :         :           :                
+VCCIO1                       : H4        : power  :                   : 2.5V    : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H6        :        :                   :         : 1         :                
+readRegData2[8]              : H7        : output : 2.5 V             :         : 1         : N              
+GND                          : H8        : gnd    :                   :         :           :                
+aluResult[15]                : H9        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 8         :                
+readMemData[31]              : H11       : output : 2.5 V             :         : 8         : N              
+aluResult[20]                : H12       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :         : 7         :                
+branchTargetAddr[3]          : H14       : output : 2.5 V             :         : 7         : N              
+branchTargetAddr[4]          : H15       : output : 2.5 V             :         : 7         : N              
+pc[23]                       : H16       : output : 2.5 V             :         : 6         : N              
+pc[26]                       : H17       : output : 2.5 V             :         : 6         : N              
+pc[19]                       : H18       : output : 2.5 V             :         : 6         : N              
+pc[14]                       : H19       : output : 2.5 V             :         : 6         : N              
+readMemData[3]               : H20       : output : 2.5 V             :         : 6         : N              
+pc[30]                       : H21       : output : 2.5 V             :         : 6         : N              
+readRegData2[3]              : H22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 1         :                
+readRegData1[16]             : J2        : output : 2.5 V             :         : 1         : N              
+readMemData[23]              : J3        : output : 2.5 V             :         : 1         : N              
+readRegData1[11]             : J4        : output : 2.5 V             :         : 1         : N              
+GND                          : J5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J6        :        :                   :         : 1         :                
+readRegData2[9]              : J7        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : J8        : power  :                   : 1.2V    :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+VCCINT                       : J10       : power  :                   : 1.2V    :           :                
+VCCINT                       : J11       : power  :                   : 1.2V    :           :                
+VCCINT                       : J12       : power  :                   : 1.2V    :           :                
+VCCINT                       : J13       : power  :                   : 1.2V    :           :                
+VCCINT                       : J14       : power  :                   : 1.2V    :           :                
+readRegData2[2]              : J15       : output : 2.5 V             :         : 6         : N              
+pc[2]                        : J16       : output : 2.5 V             :         : 6         : N              
+pc[27]                       : J17       : output : 2.5 V             :         : 6         : N              
+pc[18]                       : J18       : output : 2.5 V             :         : 6         : N              
+GND                          : J19       : gnd    :                   :         :           :                
+VCCIO6                       : J20       : power  :                   : 2.5V    : 6         :                
+readMemData[2]               : J21       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 6         :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K1        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : K2        : output : 2.5 V             :         : 1         : N              
+GND                          : K3        : gnd    :                   :         :           :                
+VCCIO1                       : K4        : power  :                   : 2.5V    : 1         :                
+nCONFIG                      : K5        :        :                   :         : 1         :                
+nSTATUS                      : K6        :        :                   :         : 1         :                
+readRegData2[19]             : K7        : output : 2.5 V             :         : 1         : N              
+readRegData2[16]             : K8        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+GND                          : K11       : gnd    :                   :         :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+GND                          : K13       : gnd    :                   :         :           :                
+VCCINT                       : K14       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 6         :                
+readMemData[4]               : K16       : output : 2.5 V             :         : 6         : N              
+pc[16]                       : K17       : output : 2.5 V             :         : 6         : N              
+pc[25]                       : K18       : output : 2.5 V             :         : 6         : N              
+branchTargetAddr[29]         : K19       : output : 2.5 V             :         : 6         : N              
+MSEL3                        : K20       :        :                   :         : 6         :                
+readRegData2[4]              : K21       : output : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : K22       : output : 2.5 V             :         : 6         : N              
+TMS                          : L1        : input  :                   :         : 1         :                
+TCK                          : L2        : input  :                   :         : 1         :                
+nCE                          : L3        :        :                   :         : 1         :                
+TDO                          : L4        : output :                   :         : 1         :                
+TDI                          : L5        : input  :                   :         : 1         :                
+readRegData1[23]             : L6        : output : 2.5 V             :         : 2         : N              
+aluResult[13]                : L7        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 1         :                
+VCCINT                       : L9        : power  :                   : 1.2V    :           :                
+GND                          : L10       : gnd    :                   :         :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+GND                          : L12       : gnd    :                   :         :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 6         :                
+instr.shamt[2]               : L16       : output : 2.5 V             :         : 6         : N              
+MSEL2                        : L17       :        :                   :         : 6         :                
+MSEL1                        : L18       :        :                   :         : 6         :                
+VCCIO6                       : L19       : power  :                   : 2.5V    : 6         :                
+GND                          : L20       : gnd    :                   :         :           :                
+readMemData[24]              : L21       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L22       :        :                   :         : 6         :                
+aluResult[11]                : M1        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M4        :        :                   :         : 2         :                
+aluResult[22]                : M5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 2         :                
+readRegData1[12]             : M8        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+GND                          : M10       : gnd    :                   :         :           :                
+GND                          : M11       : gnd    :                   :         :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCINT                       : M14       : power  :                   : 1.2V    :           :                
+aluResult[7]                 : M15       : output : 2.5 V             :         : 5         : N              
+readRegData1[22]             : M16       : output : 2.5 V             :         : 5         : N              
+MSEL0                        : M17       :        :                   :         : 6         :                
+CONF_DONE                    : M18       :        :                   :         : 6         :                
+readRegData1[7]              : M19       : output : 2.5 V             :         : 5         : N              
+instr.rt[4]                  : M20       : output : 2.5 V             :         : 5         : N              
+aluOp[1]                     : M21       : output : 2.5 V             :         : 5         : N              
+instr.opCode[5]              : M22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N1        :        :                   :         : 2         :                
+readMemData[26]              : N2        : output : 2.5 V             :         : 2         : N              
+GND                          : N3        : gnd    :                   :         :           :                
+VCCIO2                       : N4        : power  :                   : 2.5V    : 2         :                
+readRegData1[26]             : N5        : output : 2.5 V             :         : 2         : N              
+signExtend[16]               : N6        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N7        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 2         :                
+VCCINT                       : N9        : power  :                   : 1.2V    :           :                
+GND                          : N10       : gnd    :                   :         :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+GND                          : N12       : gnd    :                   :         :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N14       :        :                   :         : 5         :                
+aluResult[28]                : N15       : output : 2.5 V             :         : 5         : N              
+zero                         : N16       : output : 2.5 V             :         : 5         : N              
+readMemData[11]              : N17       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
+aluResult[16]                : N19       : output : 2.5 V             :         : 5         : N              
+readRegData1[0]              : N20       : output : 2.5 V             :         : 5         : N              
+instr.shamt[4]               : N21       : output : 2.5 V             :         : 5         : N              
+instr.rt[1]                  : N22       : output : 2.5 V             :         : 5         : N              
+readRegData1[8]              : P1        : output : 2.5 V             :         : 2         : N              
+readRegData1[31]             : P2        : output : 2.5 V             :         : 2         : N              
+aluResult[24]                : P3        : output : 2.5 V             :         : 2         : N              
+readRegData2[12]             : P4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P5        :        :                   :         : 2         :                
+readRegData2[26]             : P6        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P7        :        :                   :         : 2         :                
+signExtend[22]               : P8        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+VCCINT                       : P10       : power  :                   : 1.2V    :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+VCCINT                       : P12       : power  :                   : 1.2V    :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+readMemData[12]              : P14       : output : 2.5 V             :         : 5         : N              
+aluResult[21]                : P15       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
+instr.rs[0]                  : P17       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : P18       : power  :                   : 2.5V    : 5         :                
+GND                          : P19       : gnd    :                   :         :           :                
+aluResult[1]                 : P20       : output : 2.5 V             :         : 5         : N              
+regDst                       : P21       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P22       :        :                   :         : 5         :                
+readRegData1[14]             : R1        : output : 2.5 V             :         : 2         : N              
+readRegData2[11]             : R2        : output : 2.5 V             :         : 2         : N              
+GND                          : R3        : gnd    :                   :         :           :                
+VCCIO2                       : R4        : power  :                   : 2.5V    : 2         :                
+instr.shamt[3]               : R5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 2         :                
+aluResult[8]                 : R7        : output : 2.5 V             :         : 2         : N              
+readMemData[27]              : R8        : output : 2.5 V             :         : 2         : N              
+branchTargetAddr[23]         : R9        : output : 2.5 V             :         : 3         : N              
+signExtend[21]               : R10       : output : 2.5 V             :         : 3         : N              
+readRegData2[25]             : R11       : output : 2.5 V             :         : 3         : N              
+instr.rd[2]                  : R12       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R13       :        :                   :         : 4         :                
+signExtend[4]                : R14       : output : 2.5 V             :         : 4         : N              
+instr.rs[3]                  : R15       : output : 2.5 V             :         : 4         : N              
+signExtend[26]               : R16       : output : 2.5 V             :         : 4         : N              
+readRegData1[19]             : R17       : output : 2.5 V             :         : 5         : N              
+readMemData[15]              : R18       : output : 2.5 V             :         : 5         : N              
+aluResult[0]                 : R19       : output : 2.5 V             :         : 5         : N              
+aluResult[4]                 : R20       : output : 2.5 V             :         : 5         : N              
+branchTargetAddr[21]         : R21       : output : 2.5 V             :         : 5         : N              
+instr.opCode[0]              : R22       : output : 2.5 V             :         : 5         : N              
+GND+                         : T1        :        :                   :         : 2         :                
+rst                          : T2        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
+signExtend[23]               : T4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T5        :        :                   :         : 2         :                
+VCCA1                        : T6        : power  :                   : 2.5V    :           :                
+aluResult[19]                : T7        : output : 2.5 V             :         : 2         : N              
+readRegData1[5]              : T8        : output : 2.5 V             :         : 3         : N              
+readRegData2[31]             : T9        : output : 2.5 V             :         : 3         : N              
+readRegData2[10]             : T10       : output : 2.5 V             :         : 3         : N              
+aluResult[6]                 : T11       : output : 2.5 V             :         : 3         : N              
+readMemData[28]              : T12       : output : 2.5 V             :         : 4         : N              
+VCCINT                       : T13       : power  :                   : 1.2V    :           :                
+aluResult[30]                : T14       : output : 2.5 V             :         : 4         : N              
+instr.shamt[1]               : T15       : output : 2.5 V             :         : 4         : N              
+instr.rd[1]                  : T16       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T17       :        :                   :         : 5         :                
+branchTargetAddr[25]         : T18       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : T19       : power  :                   : 2.5V    : 5         :                
+GND                          : T20       : gnd    :                   :         :           :                
+GND+                         : T21       :        :                   :         : 5         :                
+GND+                         : T22       :        :                   :         : 5         :                
+instr.func[1]                : U1        : output : 2.5 V             :         : 2         : N              
+readRegData1[13]             : U2        : output : 2.5 V             :         : 2         : N              
+GND                          : U3        : gnd    :                   :         :           :                
+VCCIO2                       : U4        : power  :                   : 2.5V    : 2         :                
+GNDA1                        : U5        : gnd    :                   :         :           :                
+VCCD_PLL1                    : U6        : power  :                   : 1.2V    :           :                
+readRegData2[17]             : U7        : output : 2.5 V             :         : 3         : N              
+aluResult[10]                : U8        : output : 2.5 V             :         : 3         : N              
+signExtend[30]               : U9        : output : 2.5 V             :         : 3         : N              
+readRegData1[9]              : U10       : output : 2.5 V             :         : 3         : N              
+signExtend[24]               : U11       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U12       :        :                   :         : 4         :                
+branchTargetAddr[10]         : U13       : output : 2.5 V             :         : 4         : N              
+instr.opCode[3]              : U14       : output : 2.5 V             :         : 4         : N              
+instr.func[5]                : U15       : output : 2.5 V             :         : 4         : N              
+VCCINT                       : U16       : power  :                   : 1.2V    :           :                
+VCCINT                       : U17       : power  :                   : 1.2V    :           :                
+VCCA4                        : U18       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U19       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U20       :        :                   :         : 5         :                
+readRegData2[1]              : U21       : output : 2.5 V             :         : 5         : N              
+memRead                      : U22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
+branchTargetAddr[15]         : V2        : output : 2.5 V             :         : 2         : N              
+readRegData2[0]              : V3        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :         : 2         :                
+signExtend[18]               : V5        : output : 2.5 V             :         : 3         : N              
+instr.func[4]                : V6        : output : 2.5 V             :         : 3         : N              
+signExtend[19]               : V7        : output : 2.5 V             :         : 3         : N              
+instr.opCode[2]              : V8        : output : 2.5 V             :         : 3         : N              
+readRegData2[18]             : V9        : output : 2.5 V             :         : 3         : N              
+readMemData[22]              : V10       : output : 2.5 V             :         : 3         : N              
+signExtend[15]               : V11       : output : 2.5 V             :         : 3         : N              
+readRegData2[5]              : V12       : output : 2.5 V             :         : 4         : N              
+branchTargetAddr[22]         : V13       : output : 2.5 V             :         : 4         : N              
+readMemData[8]               : V14       : output : 2.5 V             :         : 4         : N              
+signExtend[0]                : V15       : output : 2.5 V             :         : 4         : N              
+aluResult[5]                 : V16       : output : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : V17       : power  :                   : 1.2V    :           :                
+GNDA4                        : V18       : gnd    :                   :         :           :                
+VCCIO5                       : V19       : power  :                   : 2.5V    : 5         :                
+GND                          : V20       : gnd    :                   :         :           :                
+memWrite                     : V21       : output : 2.5 V             :         : 5         : N              
+signExtend[5]                : V22       : output : 2.5 V             :         : 5         : N              
+readMemData[9]               : W1        : output : 2.5 V             :         : 2         : N              
+aluResult[26]                : W2        : output : 2.5 V             :         : 2         : N              
+GND                          : W3        : gnd    :                   :         :           :                
+VCCIO2                       : W4        : power  :                   : 2.5V    : 2         :                
+VCCIO3                       : W5        : power  :                   : 2.5V    : 3         :                
+readRegData2[6]              : W6        : output : 2.5 V             :         : 3         : N              
+readRegData1[29]             : W7        : output : 2.5 V             :         : 3         : N              
+readMemData[5]               : W8        : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : W9        : power  :                   : 2.5V    : 3         :                
+readRegData1[1]              : W10       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : W11       : power  :                   : 2.5V    : 3         :                
+VCCIO4                       : W12       : power  :                   : 2.5V    : 4         :                
+readRegData2[27]             : W13       : output : 2.5 V             :         : 4         : N              
+branchTargetAddr[30]         : W14       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W15       :        :                   :         : 4         :                
+VCCIO4                       : W16       : power  :                   : 2.5V    : 4         :                
+instr.func[0]                : W17       : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : W18       : power  :                   : 2.5V    : 4         :                
+signExtend[14]               : W19       : output : 2.5 V             :         : 5         : N              
+aluResult[12]                : W20       : output : 2.5 V             :         : 5         : N              
+instr.rs[2]                  : W21       : output : 2.5 V             :         : 5         : N              
+readRegData2[13]             : W22       : output : 2.5 V             :         : 5         : N              
+readMemData[17]              : Y1        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y2        :        :                   :         : 2         :                
+readRegData2[29]             : Y3        : output : 2.5 V             :         : 3         : N              
+signExtend[9]                : Y4        : output : 2.5 V             :         : 3         : N              
+GND                          : Y5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 3         :                
+readRegData2[20]             : Y7        : output : 2.5 V             :         : 3         : N              
+readRegData1[2]              : Y8        : output : 2.5 V             :         : 3         : N              
+GND                          : Y9        : gnd    :                   :         :           :                
+readMemData[7]               : Y10       : output : 2.5 V             :         : 3         : N              
+GND                          : Y11       : gnd    :                   :         :           :                
+GND                          : Y12       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y13       :        :                   :         : 4         :                
+VCCIO4                       : Y14       : power  :                   : 2.5V    : 4         :                
+GND                          : Y15       : gnd    :                   :         :           :                
+GND                          : Y16       : gnd    :                   :         :           :                
+regWrite                     : Y17       : output : 2.5 V             :         : 4         : N              
+GND                          : Y18       : gnd    :                   :         :           :                
+VCCIO5                       : Y19       : power  :                   : 2.5V    : 5         :                
+GND                          : Y20       : gnd    :                   :         :           :                
+signExtend[1]                : Y21       : output : 2.5 V             :         : 5         : N              
+instr.rd[3]                  : Y22       : output : 2.5 V             :         : 5         : N              

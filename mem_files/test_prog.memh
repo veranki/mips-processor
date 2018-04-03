@@ -1,0 +1,18 @@
+//	-- Insert SPIM Machine Language Test Program Here
+//          Field   | op | rs | rt | rd ?addr/immed|
+// add t1 t2 t3
+014B4820
+// add t1 t2 t3
+014B4820
+// sw t1 0x0001 at
+AC290001
+// add t1 t2 t3
+014B4820
+// add t1 t2 t3
+014B4820
+// add t1 t2 t3
+014B4820
+// add t1 t2 t3
+014B4820
+// add t1 t2 t3
+014B4820
